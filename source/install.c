@@ -4,7 +4,7 @@
 
 Result installShop() {
     Result ret = 0;
-	u64 tid = 0x0100B7D0022EE000;
+	u64 tid = 0x0100069000078000;
 	
 	printf("Installing hardcoded tid: %" PRIx64 "\n", tid);
 	ret = nsBeginInstallApplication(tid, 0, FsStorageId_SdCard);
